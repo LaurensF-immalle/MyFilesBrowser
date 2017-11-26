@@ -73,16 +73,16 @@ namespace MyFilesBrowser
 
         static void SubDirectorys()
         {
-            Console.WriteLine("Alle Subdirectories: ");
+            Console.WriteLine("Alle Subdirectories: " + Environment.CurrentDirectory);
         }
 
         static void ShowsHelp()
         {
             Console.WriteLine("-----help------");
-            Console.WriteLine("-c | Shows huidige directory");
-            Console.WriteLine("-d | Shows alle Subdirectories in huidige directory");
-            Console.WriteLine("-f | Shows alle files in huidige directory");
-            Console.WriteLine("-h | Shows help");
+            Console.WriteLine("-c | Toont huidige directory");
+            Console.WriteLine("-d | Toont alle Subdirectories in huidige directory");
+            Console.WriteLine("-f | Toont alle files in huidige directory");
+            Console.WriteLine("-h | Toont help");
 
         }
 
