@@ -47,7 +47,7 @@ namespace MyFilesBrowser
 
         static void experimentje()
         {
-            string[] woorden = { "dit", "is", "gewoon", "experimentje" };
+            string[] woorden = { "dit", "is", "gewoon", "experimentje","geen","idee","meer","waarvoor","dit","was","!" };
             foreach (string woord in woorden)
             {
                 Console.WriteLine(woord);
